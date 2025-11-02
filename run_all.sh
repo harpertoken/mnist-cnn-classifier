@@ -36,7 +36,7 @@ fi
 
 # Download dataset if not present
 echo "Ensuring dataset is available..."
-python -c "import torchvision; torchvision.datasets.MNIST(root='./data', train=True, download=True); torchvision.datasets.MNIST(root='./data', train=False, download=True)"
+python -c "import ssl; ssl._create_default_https_context = ssl._create_unverified_context; import torchvision; torchvision.datasets.MNIST(root='./data', train=True, download=True); torchvision.datasets.MNIST(root='./data', train=False, download=True)"
 
 # Train the model
 echo "Training the model..."
