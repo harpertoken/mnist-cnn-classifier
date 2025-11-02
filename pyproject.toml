@@ -1,0 +1,12 @@
+[project]
+dependencies = [
+    "torch",
+    "torchvision",
+    "pytest",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+    "yamllint",
+]

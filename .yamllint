@@ -1,0 +1,10 @@
+extends: default
+
+rules:
+  document-start: disable
+  truthy: disable
+  brackets:
+    max-spaces-inside: 0
+  indentation:
+    spaces: consistent
+    check-multi-line-strings: false

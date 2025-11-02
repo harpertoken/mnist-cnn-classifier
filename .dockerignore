@@ -1,0 +1,13 @@
+venv/
+data/
+models/
+__pycache__/
+*.pyc
+.git/
+.github/
+tests/
+README.md
+pyproject.toml
+requirements.txt
+run_all.sh
+.gitignore

@@ -1,0 +1,8 @@
+venv/
+data/
+models/
+__pycache__/
+*.pyc
+.DS_Store
+version.txt
+cifar-10-python.tar.gz
