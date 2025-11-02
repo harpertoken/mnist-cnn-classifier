@@ -1,3 +1,4 @@
+---
 name: CI
 
 on:
@@ -47,15 +48,3 @@ jobs:
          tags: ${{ secrets.DOCKER_USERNAME }}/cnn-mnist:latest
          context: .
          file: ./Dockerfile
-
-    - name: Create GitHub Release
-      if: github.ref == 'refs/heads/main'
-      uses: actions/create-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: v1.0.${{ github.run_number }}
-          release_name: Release v1.0.${{ github.run_number }}
-          body: Automated release for build ${{ github.run_number }} - Trained MNIST CNN model - Docker image ${{ secrets.DOCKER_USERNAME }}/cnn-mnist:latest
-          draft: false
-          prerelease: false
