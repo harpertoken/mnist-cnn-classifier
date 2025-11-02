@@ -38,6 +38,9 @@ fi
 echo "Ensuring dataset is available..."
 python -c "import ssl; ssl._create_default_https_context = ssl._create_unverified_context; import torchvision; torchvision.datasets.MNIST(root='./data', train=True, download=True); torchvision.datasets.MNIST(root='./data', train=False, download=True)"
 
+# Create models directory
+mkdir -p models
+
 # Train the model
 echo "Training the model..."
 python src/train.py
