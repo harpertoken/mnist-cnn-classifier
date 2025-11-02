@@ -6,7 +6,7 @@ This guide outlines the steps required to ship the MNIST CNN Classifier project.
 
 - GitHub account
 - Docker Hub account
-- Project code pushed to GitHub repository: https://github.com/bniladridas/mnist-cnn-classifier
+- Project code pushed to GitHub repository: https://github.com/harpertoken/mnist-cnn-classifier
 
 ## Steps to Ship
 
@@ -43,12 +43,12 @@ Once the Docker image is pushed to Docker Hub:
 
 1. Pull the image:
    ```
-   docker pull yourusername/cnn-mnist:latest
+   docker pull harpertoken/cnn-mnist:latest
    ```
 
 2. Run the container:
    ```
-   docker run -it yourusername/cnn-mnist:latest
+   docker run -it harpertoken/cnn-mnist:latest
    ```
 
    This will execute the training, testing, and prediction pipeline inside the container.
