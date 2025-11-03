@@ -8,6 +8,5 @@ __pycache__/
 tests/
 README.md
 pyproject.toml
-requirements.txt
 run_all.sh
 .gitignore
