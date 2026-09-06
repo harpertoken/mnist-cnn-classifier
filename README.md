@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="https://raw.githubusercontent.com/Coccinella-Labs/mnistcnn/main/.github/assets/thumbnail.png" alt="mnistcnn" width="100%">
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/coccinella-labs/mnistcnn/main/.github/assets/thumbnail.png" alt="mnistcnn" width="100%">
 </p>
 
