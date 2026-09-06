@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/basebin/mnistcnn/main/.github/assets/thumbnail.png" alt="mnistcnn" width="100%">
+  <img src="https://raw.githubusercontent.com/coccinella-labs/mnistcnn/main/.github/assets/thumbnail.png" alt="mnistcnn" width="100%">
 </p>
 
 # CNN MNIST Project
